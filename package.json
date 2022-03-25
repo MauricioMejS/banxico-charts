@@ -1,7 +1,7 @@
 {
   "name": "banxico-api",
   "version": "0.1.0",
-  "homepage": "https://MauricioMejS.github.io/-banxico-charts-up",
+  "homepage": "https://MauricioMejS.github.io/banxico-charts",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
