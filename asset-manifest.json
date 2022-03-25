@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/-banxico-charts-up/static/css/main.6968cd4d.css",
-    "main.js": "/-banxico-charts-up/static/js/main.eea53ac0.js",
-    "index.html": "/-banxico-charts-up/index.html",
-    "main.6968cd4d.css.map": "/-banxico-charts-up/static/css/main.6968cd4d.css.map",
-    "main.eea53ac0.js.map": "/-banxico-charts-up/static/js/main.eea53ac0.js.map"
+    "main.css": "/banxico-charts/static/css/main.6968cd4d.css",
+    "main.js": "/banxico-charts/static/js/main.eea53ac0.js",
+    "index.html": "/banxico-charts/index.html",
+    "main.6968cd4d.css.map": "/banxico-charts/static/css/main.6968cd4d.css.map",
+    "main.eea53ac0.js.map": "/banxico-charts/static/js/main.eea53ac0.js.map"
   },
   "entrypoints": [
     "static/css/main.6968cd4d.css",
