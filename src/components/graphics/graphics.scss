@@ -1,0 +1,56 @@
+.modal {
+  &__display {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--color-white);
+    z-index: 2;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    height: 500px;
+    width: 800px;
+    transition: var(--transition);
+    border-radius: 25px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 20px 0px 20px;
+    }
+  }
+
+  &__none {
+    display: none;
+  }
+}
+.icon {
+  cursor: pointer;
+}
+.chart {
+  align-self: center;
+}
+
+@media screen and (max-width: 825px) {
+  .modal {
+    &__display {
+      width: 600px;
+    }
+  }
+  .chart {
+    align-self: center;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .modal {
+    &__display {
+      width: 380px;
+    }
+  }
+  .chart {
+    align-self: center;
+    width: 350px;
+  }
+}

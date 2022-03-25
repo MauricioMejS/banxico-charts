@@ -1,0 +1,53 @@
+.container__input {
+  background: var(--color-bg-variant);
+  height: 400px;
+  width: 800px;
+  border-radius: 25px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px;
+
+  label {
+    color: var(--color-white);
+  }
+
+  select {
+    background: var(--color-white);
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    align-self: center;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+
+  input {
+    background: var(--color-white);
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    border: 3px;
+    border-color: var(--color-primary-variant);
+    border-style: solid;
+    padding: 5px 15px;
+
+    &#submit {
+      height: 50px;
+      width: 200px;
+      align-self: end;
+      cursor: pointer;
+      background: var(--color-bg-variant);
+      color: var(--color-primary-variant);
+      font-size: 20px;
+
+      &:hover {
+        background: var(--color-white);
+        transition: var(--transition);
+        border-color: black;
+        color: black;
+      }
+    }
+  }
+}
